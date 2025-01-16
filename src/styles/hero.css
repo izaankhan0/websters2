@@ -1,0 +1,87 @@
+.hero{
+    background-color: #380300;
+    min-height: 732px;
+    overflow: hidden;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #da7d00;
+    width: 80%;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+nav > ul{
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+}
+nav > ul > a > img{
+    transition: 200ms ease;
+}
+nav > ul > a > img:hover{
+    transform: scale(1.1);
+}
+.hero > img{
+    position: absolute;
+    left: 0px;
+}
+nav > img{
+    height: 40px;
+}
+
+nav > ul > a > img{
+    height: 40px;
+    margin-left: 70px;
+}
+img[src="../public/assets/media/hat-dark.png"]{
+    margin-left: 40px;
+}
+
+
+img[src="../public/assets/media/hero-bg.png"]{
+    width: 100%;
+}
+.logo{
+    width: 800px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.main > h1{
+    font-family: 'Gill', sans-serif;
+    color: #da7d00;
+    font-weight: 200;
+    font-size: 36pt;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.main > button{
+    color: #380300;
+    background-color: #da7d00;
+    font-family: 'Etna', sans-serif;
+    padding: 12px 32px 20px 32px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20pt;
+    margin-top: 50px;
+    cursor: pointer;
+    border: solid 5px #380300;
+    transition: 200ms ease;
+}
+
+.main > button:hover{
+    background-color: #380300;
+    color: #da7d00;
+    border: solid 5px #da7d00;
+}
