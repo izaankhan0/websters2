@@ -2,6 +2,11 @@
     background-color: #380300;
     min-height: 800px;
     overflow: hidden;
+    position: relative;
+    width: 100%; /* Ensure it fits within the viewport */
+}
+body{
+    overflow-x: hidden;
 }
 .wrapper{
     display: flex;
@@ -19,6 +24,7 @@ nav{
     height: 60px;
     margin-top: 20px;
     border-radius: 50px;
+    z-index: 1;
 }
 nav > ul{
     display: flex;
@@ -31,28 +37,52 @@ nav > ul > a > img{
 nav > ul > a > img:hover{
     transform: scale(1.1);
 }
-.hero > img{
-    position: absolute;
-    left: 0px;
-}
 nav > img{
     height: 40px;
+    margin-left: 40px;
 }
 
 nav > ul > a > img{
     height: 40px;
     margin-left: 70px;
 }
-img[src="../public/assets/media/hat-dark.png"]{
-    margin-left: 40px;
+.absolute{
+    height: 110%;
+    position: absolute;
+    left: 0px;
+    opacity: 0.1;
+}
+.abs-1{
+    animation: scrollImages 20s linear infinite;
+    /* visibility: hidden; */
+}
+.abs-2{
+    animation: scrollImages2 20s linear infinite;
+    /* visibility: hidden; */
 }
 
 
-img[src="../public/assets/media/hero-bg.png"]{
-    width: 100%;
+@keyframes scrollImages {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(101%); /* Move left by 50% (one image width) */
+    }
 }
+@keyframes scrollImages2 {
+    0% {
+        transform: translateX(-99%);
+    }
+    100% {
+        transform: translateX(0); /* Move left by 50% (one image width) */
+    }
+}
+
+
 .logo{
     width: 800px;
+    z-index: 1;
 }
 .main{
     display: flex;
@@ -68,6 +98,7 @@ img[src="../public/assets/media/hero-bg.png"]{
     font-size: 36pt;
     margin-left: 60px;
     margin-top: 20px;
+    z-index: 1;
 }
 .main > button{
     color: #380300;
@@ -81,6 +112,7 @@ img[src="../public/assets/media/hero-bg.png"]{
     cursor: pointer;
     border: solid 5px #380300;
     transition: 200ms ease;
+    z-index: 1;
 }
 
 .main > button:hover{
@@ -110,7 +142,9 @@ img[src="../public/assets/media/hero-bg.png"]{
         position: fixed;
         left: 36px;
         top: 130px;
+        z-index: 10;
     }
+    
     van > ul{
         display: flex;
         flex-direction: column;
@@ -118,12 +152,6 @@ img[src="../public/assets/media/hero-bg.png"]{
         justify-content: center;
         align-items: center;
     }
-    /* .wrapper > img{
-        transition: 200ms ease;
-    } */
-    /* nav > ul > a > img:hover{
-        transform: scale(1.1);
-    } */
     .wrapper > img{
         height: 40px;
     }
@@ -138,6 +166,7 @@ img[src="../public/assets/media/hero-bg.png"]{
         box-shadow: #6b3d00 0px 0px 10px 5px;
         /* box-shadow: #6b3d00 0px 10px 10px 10px inset; */
         transition: 200ms ease;
+        z-index: 11 !important;
     }
     .burger{
         display: flex;
@@ -151,7 +180,7 @@ img[src="../public/assets/media/hero-bg.png"]{
         position: fixed;
         left: 16px;
         top: 20px;
-        z-index: 10;
+        z-index: 12;
         transition: 400ms ease;
     }
     .burger>img{

@@ -5,7 +5,8 @@ import Nav from "./nav";
 
 function hero(){
     return <div className="hero" id="hero">
-    {/* <img src="../../public/assets/media/hero-bg.png" className="absolute" alt="" /> */}
+    <img src="../../public/assets/media/bg-scroll.png" className="absolute abs-1" alt="" />
+    <img src="../../public/assets/media/bg-scroll.png" className="absolute abs-2" alt="" />
     <Nav />
     <div className="main">
         <img src="../../public/assets/media/logo.png" className="logo" alt="" />
