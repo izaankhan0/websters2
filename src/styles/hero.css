@@ -7,6 +7,9 @@
     display: flex;
     justify-content: center;
 }
+.burger, van{
+    display: none;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -90,9 +93,78 @@ img[src="../public/assets/media/hero-bg.png"]{
     .logo{
         width: 600px;
     }
+    nav{
+        width: 90%;
+    }
+   
+}
+@media (max-width: 800px){
+    .main{
+        margin-top: 150px;
+    }
+    nav{
+        display: none;
+    }
+    van{
+        display: flex;
+        position: fixed;
+        left: 36px;
+        top: 130px;
+    }
+    van > ul{
+        display: flex;
+        flex-direction: column;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .wrapper > img{
+        transition: 200ms ease;
+    } */
+    /* nav > ul > a > img:hover{
+        transform: scale(1.1);
+    } */
+    .wrapper > img{
+        height: 40px;
+    }
+    van > ul > a > img{
+        height: 40px;
+    }
+    van > ul > a{
+        margin: 10px 0px;
+        border-radius: 50%;
+        background-color: #da7d00;
+        padding: 20px;
+        box-shadow: #6b3d00 0px 0px 10px 5px;
+        /* box-shadow: #6b3d00 0px 10px 10px 10px inset; */
+        transition: 200ms ease;
+    }
+    .burger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #da7d00;
+        padding: 20px;
+        height: 60px;
+        width: 60px;
+        position: fixed;
+        left: 16px;
+        top: 20px;
+        z-index: 10;
+        transition: 400ms ease;
+    }
+    .burger>img{
+        height: 40px;
+        margin: 0px;
+        margin-left: 4px;
+    }
    
 }
 @media (max-width: 650px){
+    .main{
+        margin-top: 170px !important;
+    }
     .logo{
         width: 400px;
     }
