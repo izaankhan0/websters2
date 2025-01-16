@@ -1,6 +1,6 @@
 .hero{
     background-color: #380300;
-    min-height: 732px;
+    min-height: 800px;
     overflow: hidden;
 }
 .wrapper{
@@ -84,4 +84,45 @@ img[src="../public/assets/media/hero-bg.png"]{
     background-color: #380300;
     color: #da7d00;
     border: solid 5px #da7d00;
+}
+
+@media (max-width: 1000px){
+    .logo{
+        width: 600px;
+    }
+   
+}
+@media (max-width: 650px){
+    .logo{
+        width: 400px;
+    }
+    h1{
+        margin-left: 20px !important;
+        font-size: 30px !important;
+    }
+    .main > button{
+        padding: 12px 32px 20px 32px;
+        font-size: 18pt;
+        margin-top: 50px;
+    }
+    .main{
+        margin-top: 120px;
+    }
+    .hero{
+        min-height: 700px;
+    }
+}
+@media (max-width: 400px){
+    .logo{
+        width: 325px;
+    }
+    h1{
+        margin-left: 10px !important;
+        font-size: 24px !important;
+    }
+    .main > button{
+        padding: 10px 15px 16px 19px;
+        font-size: 16pt;
+        margin-top: 50px;
+    }
 }
