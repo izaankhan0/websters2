@@ -58,8 +58,8 @@ function nav(){
         <nav>
             <img src={hatDark} className="w-20" alt="" />
             <ul>
-                <a href=""><img src={navIcon1} alt="" /></a>
-                <a href=""><img src={navIcon2} alt="" /></a>
+                <a href="#hero"><img src={navIcon1} alt="" /></a>
+                <a href="#why"><img src={navIcon2} alt="" /></a>
                 <a href=""><img src={navIcon3} alt="" /></a>
                 <a href=""><img src={navIcon4} alt="" /></a>
                 <a href=""><img src={navIcon5} alt="" /></a>
@@ -72,8 +72,8 @@ function nav(){
 
         <div className="van">
             <ul>
-                <a href="" style={{transform: `translateY(${a1}px)`}}><img src={navIcon1} alt="" /></a>
-                <a href="" style={{transform: `translateY(${a2}px)`}}><img src={navIcon2} alt="" /></a>
+                <a href="#hero" style={{transform: `translateY(${a1}px)`}}><img src={navIcon1} alt="" /></a>
+                <a href="#why" style={{transform: `translateY(${a2}px)`}}><img src={navIcon2} alt="" /></a>
                 <a href="" style={{transform: `translateY(${a3}px)`}}><img src={navIcon3} alt="" /></a>
                 <a href="" style={{transform: `translateY(${a4}px)`}}><img src={navIcon4} alt="" /></a>
                 <a href="" style={{transform: `translateY(${a5}px)`}}><img src={navIcon5} alt="" /></a>

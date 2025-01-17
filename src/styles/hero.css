@@ -5,6 +5,9 @@
     position: relative;
     width: 100%; /* Ensure it fits within the viewport */
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     overflow-x: hidden;
 }
