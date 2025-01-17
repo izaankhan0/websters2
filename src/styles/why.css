@@ -1,6 +1,6 @@
 .why{
     background-color: #da7d00;
-    
+    padding-bottom: 50px;
 }
 
 h1{
@@ -12,4 +12,32 @@ h1{
 }
 .slides{
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide-1 > img{
+    height: 300px;
+}
+p{
+    font-family: 'Gill', sans-serif;
+    color: #380300;
+    font-size: 26pt;
+    text-align: center;
+    font-weight: 600;
+    margin: 0px 60px;
+}
+.slide{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px;
+    max-width: 92%;
+}
+.slide-2 > img{
+    height: 350px;
+}
+.slide-3 > img{
+    height: 350px;
 }
