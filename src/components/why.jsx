@@ -6,7 +6,7 @@ import marImg from "../../public/assets/media/mar.png";
 import allSitesImg from "../../public/assets/media/all-sites.png";
 
 function why(){
-    return <div className="why">
+    return <div className="why" id='why'>
 
         <h1>Why need a Website?</h1>
         <div className="slides">
