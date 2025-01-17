@@ -67,7 +67,7 @@ function nav(){
         </nav>
 
         <div style={{transform: `rotate(${rotator}deg)`}} onClick={burger} className="burger">
-            <img src="../public/assets/media/hat-dark.png" className="w-20" alt="" />
+            <img src={hatDark} className="w-20" alt="" />
         </div>
 
         <van>
