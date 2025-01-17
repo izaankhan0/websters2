@@ -140,7 +140,7 @@ nav > ul > a > img{
     van{
         display: flex;
         position: fixed;
-        left: 36px;
+        right: 36px;
         top: 130px;
         z-index: 10;
     }
@@ -178,7 +178,7 @@ nav > ul > a > img{
         height: 60px;
         width: 60px;
         position: fixed;
-        left: 16px;
+        right: 16px;
         top: 20px;
         z-index: 12;
         transition: 400ms ease;
