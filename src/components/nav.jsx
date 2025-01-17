@@ -1,6 +1,13 @@
 import React, { useState } from 'react'
 import '../styles/hero.css'
 import '../styles/fonts.css'
+import hatDark from "../../public/assets/media/hat-dark.png"
+import navIcon1 from "../../public/assets/media/1.png";
+import navIcon2 from "../../public/assets/media/2.png";
+import navIcon3 from "../../public/assets/media/3.png";
+import navIcon4 from "../../public/assets/media/4.png";
+import navIcon5 from "../../public/assets/media/5.png";
+
 
 function nav(){
     const [ticker, setTicker] = useState(false);
@@ -49,13 +56,13 @@ function nav(){
 
     return <div className="wrapper">
         <nav>
-            <img src="../public/assets/media/hat-dark.png" className="w-20" alt="" />
+            <img src={hatDark} className="w-20" alt="" />
             <ul>
-                <a href=""><img src="../../public/assets/media/1.png" alt="" /></a>
-                <a href=""><img src="../../public/assets/media/2.png" alt="" /></a>
-                <a href=""><img src="../../public/assets/media/3.png" alt="" /></a>
-                <a href=""><img src="../../public/assets/media/4.png" alt="" /></a>
-                <a href=""><img src="../../public/assets/media/5.png" alt="" /></a>
+                <a href=""><img src={navIcon1} alt="" /></a>
+                <a href=""><img src={navIcon2} alt="" /></a>
+                <a href=""><img src={navIcon3} alt="" /></a>
+                <a href=""><img src={navIcon4} alt="" /></a>
+                <a href=""><img src={navIcon5} alt="" /></a>
             </ul>
         </nav>
 
@@ -65,11 +72,11 @@ function nav(){
 
         <van>
             <ul>
-                <a href="" style={{transform: `translateY(${a1}px)`}}><img src="../../public/assets/media/1.png" alt="" /></a>
-                <a href="" style={{transform: `translateY(${a2}px)`}}><img src="../../public/assets/media/2.png" alt="" /></a>
-                <a href="" style={{transform: `translateY(${a3}px)`}}><img src="../../public/assets/media/3.png" alt="" /></a>
-                <a href="" style={{transform: `translateY(${a4}px)`}}><img src="../../public/assets/media/4.png" alt="" /></a>
-                <a href="" style={{transform: `translateY(${a5}px)`}}><img src="../../public/assets/media/5.png" alt="" /></a>
+                <a href="" style={{transform: `translateY(${a1}px)`}}><img src={navIcon1} alt="" /></a>
+                <a href="" style={{transform: `translateY(${a2}px)`}}><img src={navIcon2} alt="" /></a>
+                <a href="" style={{transform: `translateY(${a3}px)`}}><img src={navIcon3} alt="" /></a>
+                <a href="" style={{transform: `translateY(${a4}px)`}}><img src={navIcon4} alt="" /></a>
+                <a href="" style={{transform: `translateY(${a5}px)`}}><img src={navIcon5} alt="" /></a>
             </ul>
         </van>
     </div>
