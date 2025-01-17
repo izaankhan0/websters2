@@ -13,10 +13,10 @@ function nav(){
     const [ticker, setTicker] = useState(false);
     const [rotator, setRotator] = useState(0);
     const [a1, setA1] = useState(-110);
-    const [a2, setA2] = useState(-217);
-    const [a3, setA3] = useState(-320);
-    const [a4, setA4] = useState(-425);
-    const [a5, setA5] = useState(-530);
+    const [a2, setA2] = useState(-200);
+    const [a3, setA3] = useState(-292);
+    const [a4, setA4] = useState(-390);
+    const [a5, setA5] = useState(-490);
     function enable(){
         setA1(0);
         setA2(0);
@@ -32,10 +32,10 @@ function nav(){
     }
     function disable(){
         setA1(-110);
-        setA2(-217);
-        setA3(-320);
-        setA4(-425);
-        setA5(-530);
+        setA2(-200);
+        setA3(-292);
+        setA4(-390);
+        setA5(-490);
         setTicker((prevTicker) =>{
             return !prevTicker;
         })
