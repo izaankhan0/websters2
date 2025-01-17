@@ -70,7 +70,7 @@ function nav(){
             <img src={hatDark} className="w-20" alt="" />
         </div>
 
-        <van>
+        <div className="van">
             <ul>
                 <a href="" style={{transform: `translateY(${a1}px)`}}><img src={navIcon1} alt="" /></a>
                 <a href="" style={{transform: `translateY(${a2}px)`}}><img src={navIcon2} alt="" /></a>
@@ -78,7 +78,7 @@ function nav(){
                 <a href="" style={{transform: `translateY(${a4}px)`}}><img src={navIcon4} alt="" /></a>
                 <a href="" style={{transform: `translateY(${a5}px)`}}><img src={navIcon5} alt="" /></a>
             </ul>
-        </van>
+        </div>
     </div>
 }
 

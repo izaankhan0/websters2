@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.burger, van{
+.burger, .van{
     display: none;
 }
 nav{
@@ -137,7 +137,7 @@ nav > ul > a > img{
     nav{
         display: none;
     }
-    van{
+    .van{
         display: flex;
         position: fixed;
         right: 30px;
@@ -145,7 +145,7 @@ nav > ul > a > img{
         z-index: 10;
     }
     
-    van > ul{
+    .van > ul{
         display: flex;
         flex-direction: column;
         width: 60px;
@@ -155,10 +155,10 @@ nav > ul > a > img{
     .wrapper > img{
         height: 40px;
     }
-    van > ul > a > img{
+    .van > ul > a > img{
         height: 30px;
     }
-    van > ul > a{
+    .van > ul > a{
         margin: 10px 0px;
         border-radius: 50%;
         background-color: #da7d00;
