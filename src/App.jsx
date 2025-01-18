@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import './styles/App.css'
 import Hero from "./components/hero"
 import Why from "./components/why"
+import Clients from "./components/clients"
 // import About from "./components/about"
-// import Clients from "./components/clients"
 // import Forms from "./components/forms"
 // import Process from "./components/process"
 // import Reviews from "./components/reviews"
@@ -15,7 +15,7 @@ function App() {
 
   <Hero />
   <Why />
-
+  <Clients />
 
 </div>
   
