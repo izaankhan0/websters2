@@ -29,6 +29,8 @@
   height: 250px;
   margin: 0px 60px;
   transition: 200ms ease;
+  box-shadow: #380300 0px 0px 20px 10px;
+
 }
 
 .int_icons {
@@ -53,6 +55,8 @@
 .int_icons a > img:hover {  /* Apply hover effect to image inside <a> */
   transform: scale(1.05);
   cursor: pointer;
+  box-shadow: #380300 0px 0px 20px 5px;
+
 }
 
 .scroller {
