@@ -1,116 +1,117 @@
 .clients {
-    background-color: #380300;
-    height: 650px;
-    overflow: hidden;
-    position: relative;
-    z-index: -2;
+  background-color: #380300;
+  height: 650px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.clients > h2 {
+  text-align: center;
+  font-size: 60pt;
+  color: #da7d00;
+  font-family: "Etna", sans-serif;
+  padding: 20px 0px 50px 0px;
+  z-index: 10; /* Higher z-index to be above the background images */
+  position: relative; /* Ensure it sits above the background */
+}
+
+@keyframes slide {
+  to {
+    transform: translateX(0);
   }
-  
+  from {
+    transform: translateX(-100%);
+  }
+}
+
+.int_icons a > img {  /* Target the <img> inside <a> */
+  height: 250px;
+  margin: 0px 60px;
+  transition: 200ms ease;
+}
+
+.int_icons {
+  background-color: #da7d00;
+  animation: 14s slide infinite linear;
+  display: inline-block;
+}
+
+.intn_list {
+  all: unset;
+  background-color: #da7d00;
+  white-space: nowrap;
+  margin: 0% 0px 15% 0px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  padding: 40px 0px;
+  overflow: hidden;
+  z-index: 100; /* Higher z-index to appear above background images */
+}
+
+.int_icons a > img:hover {  /* Apply hover effect to image inside <a> */
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.scroller {
+  margin: 40px 0px;
+  z-index: 1000 !important; /* Higher z-index to stay above the background */
+}
+
+@media (max-width: 550px) {
   .clients > h2 {
-    text-align: center;
-    font-size: 60pt;
-    color: #da7d00;
-    font-family: "Etna", sans-serif;
-    padding: 20px 0px 50px 0px;
-    z-index: 10; /* Higher z-index to be above the background images */
-    position: relative; /* Ensure it sits above the background */
+    font-size: 50pt;
+    padding-top: 40px;
   }
-  
-  @keyframes slide {
-    to {
-      transform: translateX(0);
-    }
-    from {
-      transform: translateX(-100%);
-    }
-  }
-  
-  .int_icons > img {
-    height: 250px;
-    margin: 0px 60px;
+  .int_icons a > img {
+    height: 200px;
+    margin: 0px 30px;
     transition: 200ms ease;
   }
-  
-  .int_icons {
-    background-color: #da7d00;
-    animation: 10s slide infinite linear;
-    display: inline-block;
-  }
-  
   .intn_list {
-    background-color: #da7d00;
-    white-space: nowrap;
-    margin: 0% 0px 15% 0px;
-    height: 250px;
-    display: flex;
-    align-items: center;
+    height: 200px;
     padding: 40px 0px;
-    overflow: hidden;
-    z-index: 100; /* Higher z-index to appear above background images */
   }
-  
-  .int_icons > img:hover {
-    transform: scale(1.05);
-    cursor: pointer;
+}
+
+@media (max-width: 350px) {
+  .clients > h2 {
+    font-size: 45pt;
   }
-  
-  .scroller {
-    margin: 40px 0px;
-    z-index: 1000 !important; /* Higher z-index to stay above the background */
+}
+
+.clients > .absolute {
+  height: 134%;
+  position: absolute;
+  left: 0px;
+  opacity: 0.1;
+  z-index: -1; /* Ensure it's behind all other elements */
+}
+
+.abs-5 {
+  animation: scrollImages 20s linear infinite;
+}
+
+.abs-6 {
+  animation: scrollImages2 20s linear infinite;
+}
+
+@keyframes scrollImages {
+  0% {
+    transform: translateX(0);
   }
-  
-  @media (max-width:550px) {
-    .clients> h2 {
-      font-size: 50pt;
-      padding-top: 40px;
-    }
-    .int_icons > img {
-      height: 200px;
-      margin: 0px 30px;
-      transition: 200ms ease;
-    }
-    .intn_list {
-      height: 200px;
-      padding: 40px 0px;
-    }
+  100% {
+    transform: translateX(101%); /* Move left by 50% (one image width) */
   }
-  @media (max-width:350px) {
-    .clients> h2 {
-      font-size: 45pt;
-    }
+}
+
+@keyframes scrollImages2 {
+  0% {
+    transform: translateX(-99%);
   }
-  
-  .clients > .absolute {
-    height: 134%;
-    position: absolute;
-    left: 0px;
-    opacity: 0.1;
-    z-index: -1; /* Ensure it's behind all other elements */
+  100% {
+    transform: translateX(0); /* Move left by 50% (one image width) */
   }
-  
-  .abs-5 {
-    animation: scrollImages 20s linear infinite;
-  }
-  
-  .abs-6 {
-    animation: scrollImages2 20s linear infinite;
-  }
-  
-  @keyframes scrollImages {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(101%); /* Move left by 50% (one image width) */
-    }
-  }
-  
-  @keyframes scrollImages2 {
-    0% {
-      transform: translateX(-99%);
-    }
-    100% {
-      transform: translateX(0); /* Move left by 50% (one image width) */
-    }
-  }
-  
+}
