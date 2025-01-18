@@ -5,7 +5,7 @@ import Why from "./components/why"
 import Clients from "./components/clients"
 // import About from "./components/about"
 import Forms from "./components/forms"
-// import Process from "./components/process"
+import Process from "./components/process"
 // import Reviews from "./components/reviews"
 // import Contact from "./components/contact"
 
@@ -17,6 +17,7 @@ function App() {
   <Why />
   <Clients />
   <Forms />
+  <Process />
 
 </div>
   
