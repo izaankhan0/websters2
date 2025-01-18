@@ -145,7 +145,7 @@ nav > ul > a > img{
         position: fixed;
         right: 30px;
         top: 130px;
-        z-index: 10;
+        z-index: 100;
     }
     
     .van > ul{
@@ -169,7 +169,7 @@ nav > ul > a > img{
         box-shadow: #6b3d00 0px 0px 10px 5px;
         /* box-shadow: #6b3d00 0px 10px 10px 10px inset; */
         transition: 200ms ease;
-        z-index: 11 !important;
+        z-index: 110 !important;
     }
     .burger{
         display: flex;
@@ -183,7 +183,7 @@ nav > ul > a > img{
         position: fixed;
         right: 16px;
         top: 20px;
-        z-index: 12;
+        z-index: 120;
         transition: 400ms ease;
         box-shadow: #6b3d00 0px 0px 10px 5px;
 
