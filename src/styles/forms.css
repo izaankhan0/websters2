@@ -1,0 +1,121 @@
+.forms{
+    min-height: 740px;
+    overflow: hidden;
+    background-color: #da7d00;
+    position: relative;
+    padding-bottom: 60px;
+
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}
+.form-box{
+    background-color: #380300;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 350px;
+    margin: 0px 20px;
+    border-radius: 10%;
+    cursor: pointer;
+    box-shadow: #650000 0px 0px 20px 10px;
+    transition: 200ms ease;
+
+}
+.form-box:hover{
+    background-color: #380300;
+    box-shadow: #bc0000 0px 0px 20px 10px;
+    transform: scale(1.05);
+
+}
+.form-box>p{
+    color: #da7d00;
+    margin: 0;
+    width: 90%;
+    font-size: 21pt;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+.form>a{
+    text-decoration: none;
+    z-index: 20;
+    margin: 50px 0px 20px 0px;
+}
+.form-box>img{
+    height: 100px;
+}
+.forms > h1{
+    padding: 40px 0px 60px 0px;
+    margin: 0;
+    z-index: 20 !important;
+    position: relative;
+
+}
+.form-box.blur {
+    filter: blur(3px);
+    opacity: 0.7;
+    transition: 200ms ease;
+  }
+  
+  .form-box:not(.blur):hover {
+    filter: none;
+    opacity: 1;
+  }
+
+  
+.forms > .absolute {
+    height: 160% !important;
+    position: absolute;
+    left: 0px;
+    top: -220px;
+
+    opacity: 0.25;
+    z-index: 1 !important;
+  }
+  
+  .abs-7 {
+    animation: scrollImages 20s linear infinite;
+  }
+  
+  .abs-8 {
+    animation: scrollImages2 20s linear infinite;
+  }
+  
+  @keyframes scrollImages {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(101%); /* Move left by 50% (one image width) */
+    }
+  }
+  
+  @keyframes scrollImages2 {
+    0% {
+      transform: translateX(-99%);
+    }
+    100% {
+      transform: translateX(0); /* Move left by 50% (one image width) */
+    }
+  }
+  
+
+@media (max-width:1200px){
+    .forms > img{
+        display: none;
+    }
+}
+@media (max-width:1100px){
+    .forms > h1{
+        font-size: 50pt !important;
+    }
+    .form{
+        padding-top: 0px;
+    }
+}
