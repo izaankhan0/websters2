@@ -1,0 +1,100 @@
+.process{
+    min-height: 800px;
+    background-color: #380300;
+    overflow: hidden;
+    position: relative;
+}
+.process > h1{
+    color: #da7d00;
+    font-size: 60pt;
+    margin-bottom: 60px;
+
+    z-index: 20;
+    position: relative;
+}
+.steps{
+    margin: 30px auto;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+}
+.step{
+    width: 300px;
+}
+.step > img{
+    height: 170px;
+    z-index: 20;
+    position: relative;
+}
+.step > p{
+    color: #da7d00;
+    font-size: 20pt;
+    margin: 0;
+    margin-top: 5px;
+}
+.step-2{
+    align-self: flex-end;
+}
+.step-4{
+    align-self: flex-end;
+}
+.step-1{
+    align-self: flex-start;
+}
+.step-3{
+    align-self: flex-start;
+}
+@media (max-width:700px) {
+    .process > h1{
+        font-size: 50pt !important;
+    }
+    .step > img{
+        height: 140px;
+    }
+    .step{
+        margin: 15px 0px;
+    }
+}
+@media (max-width:550px) {
+    .step{
+        align-self: center !important;
+    }
+    .step-1 > img, .step-4>img{
+        margin-left: 20px;
+    }
+    .step-3 > img{
+        margin-left: 10px;
+    }
+}
+
+
+.process > .absolute2{
+    height: 70% !important;
+    position: absolute;
+    left: 0px;
+    top: -100px;
+    opacity: 0.1;
+}
+.process > .abs-12{
+    animation: scrollImages 21.5s linear infinite;
+}
+.process > .abs-22{
+    animation: scrollImages2 21.5s linear infinite;
+}
+.process > .absolute3{
+    height: 70% !important;
+
+    position: absolute;
+    left: 0px;
+    bottom: -419px;
+    opacity: 0.1;
+}
+.process > .abs-32{
+    animation: scrollImages 21.5s linear infinite;
+}
+.process > .abs-42{
+    animation: scrollImages2 21.5s linear infinite;
+}

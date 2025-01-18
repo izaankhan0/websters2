@@ -4,10 +4,17 @@ import Step1 from "../../public/assets/media/10.png";
 import Step2 from "../../public/assets/media/11.png";
 import Step3 from "../../public/assets/media/12.png";
 import Step4 from "../../public/assets/media/13.png";
+import Scroll from "../../public/assets/media/bg-scroll.png"
+
 
 
 function process(){
     return <div className="process" id="process">
+        <img src={Scroll} className="absolute2 abs-12" alt="" />
+        <img src={Scroll} className="absolute2 abs-22" alt="" />
+        <img src={Scroll} className="absolute3 abs-32" alt="" />
+        <img src={Scroll} className="absolute3 abs-42" alt="" />
+          
         <h1>Our Process</h1>
         <div className="steps">
             <div className="step step-1">
