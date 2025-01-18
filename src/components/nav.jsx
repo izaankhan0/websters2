@@ -74,7 +74,7 @@ function nav(){
             <ul>
                 <a href="#hero" style={{transform: `translateY(${a1}px)`}}><img src={navIcon1} alt="" /></a>
                 <a href="#why" style={{transform: `translateY(${a2}px)`}}><img src={navIcon2} alt="" /></a>
-                <a href="" style={{transform: `translateY(${a3}px)`}}><img src={navIcon3} alt="" /></a>
+                <a href="#clients" style={{transform: `translateY(${a3}px)`}}><img src={navIcon3} alt="" /></a>
                 <a href="" style={{transform: `translateY(${a4}px)`}}><img src={navIcon4} alt="" /></a>
                 <a href="" style={{transform: `translateY(${a5}px)`}}><img src={navIcon5} alt="" /></a>
             </ul>

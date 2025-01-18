@@ -1,0 +1,95 @@
+import React, { useRef, useEffect } from 'react';
+import '../styles/clients.css';
+import taqseemLogo from "../../public/assets/media/taqseem-logo.jpeg";
+
+function Clients() {
+    const scrollerRef = useRef();
+
+    useEffect(() => {
+        const handleScroll = (e) => {
+            if (scrollerRef.current && scrollerRef.current.contains(e.target)) {
+                const scrollAmount = e.deltaY; // Get the amount of vertical scroll
+
+                // Get the current scroll position and dimensions of the container
+                const scrollLeft = scrollerRef.current.scrollLeft;
+                const scrollWidth = scrollerRef.current.scrollWidth;
+                const containerWidth = scrollerRef.current.offsetWidth;
+
+                // If the user is at the extreme right or left of the scroll, start vertical scrolling
+                if (scrollLeft + containerWidth >= scrollWidth && scrollAmount > 0) {
+                    // Scroll down vertically
+                    window.scrollBy(10, 50); // Adjust the value for vertical scroll speed
+                } else if (scrollLeft === 0 && scrollAmount < 0) {
+                    // Scroll up vertically
+                    window.scrollBy(10, -50); // Adjust the value for vertical scroll speed
+                } else {
+                    // Else, scroll horizontally with 3x speed
+                    scrollerRef.current.scrollLeft += scrollAmount * 4.5; // Adjust the multiplier for increased horizontal speed
+                }
+
+                e.preventDefault(); // Prevent default vertical scrolling
+            }
+        };
+
+        const scrollerElement = scrollerRef.current;
+        scrollerElement.addEventListener('wheel', handleScroll, { passive: false });
+
+        return () => {
+            scrollerElement.removeEventListener('wheel', handleScroll);
+        };
+    }, []);
+
+    return (
+        <div className="clients">
+            <h2>Our Clients</h2>
+            <div className="scroller-box" ref={scrollerRef}>
+                <div className="scroller">
+                    {Array(10).fill(taqseemLogo).map((logo, index) => (
+                        <img key={index} src={logo} alt={`Client ${index + 1}`} />
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Clients;
+.clients {
+    background-color: #380300;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scroller-box {
+    background-color: #da7d00;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    align-items: center;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth; /* Smooth scrolling for programmatic adjustments */
+}
+
+.scroller-box::-webkit-scrollbar {
+    display: none;
+}
+
+.scroller > img {
+    height: 300px;
+    margin: 0px 40px;
+    box-shadow: #6b0000 0px 0px 50px 5px;
+    flex: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60pt;
+    color: #da7d00;
+    font-family: 'Etna', sans-serif;
+    padding: 30px 0px 50px 0px;
+}
