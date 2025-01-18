@@ -4,7 +4,7 @@ import Hero from "./components/hero"
 import Why from "./components/why"
 import Clients from "./components/clients"
 // import About from "./components/about"
-// import Forms from "./components/forms"
+import Forms from "./components/forms"
 // import Process from "./components/process"
 // import Reviews from "./components/reviews"
 // import Contact from "./components/contact"
@@ -16,6 +16,7 @@ function App() {
   <Hero />
   <Why />
   <Clients />
+  <Forms />
 
 </div>
   
