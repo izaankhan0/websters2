@@ -103,7 +103,7 @@ nav > ul > a > img{
     margin-top: 20px;
     z-index: 1;
 }
-.main > button{
+.main> a > button{
     color: #380300;
     background-color: #da7d00;
     font-family: 'Etna', sans-serif;
@@ -118,7 +118,7 @@ nav > ul > a > img{
     z-index: 1;
 }
 
-.main > button:hover{
+.main > a > button:hover{
     background-color: #380300;
     color: #da7d00;
     border: solid 5px #da7d00;

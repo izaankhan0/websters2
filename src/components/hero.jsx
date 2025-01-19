@@ -13,7 +13,7 @@ function hero(){
     <div className="main">
         <img src= {Logo} className="logo" alt="" />
         <h1>Building your Digital Presence</h1>
-        <button>Get your Website Now</button>
+        <a href="#forms"><button>Get your Website Now</button></a>
     </div>
 </div>
 }
