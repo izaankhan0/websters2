@@ -8,6 +8,7 @@
     padding: 20px 15px;
     z-index: 90;
     background: rgba(197, 177, 0, 0.1);
+    margin-bottom: 40px;
 
 }
 .review > img{
@@ -54,9 +55,6 @@
     }
     .right > p{
         font-size: 12pt;
-    }
-    .reviews > img{
-        display: none;
     }
 }
 @media (max-width:600px) {
