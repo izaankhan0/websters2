@@ -1,0 +1,8 @@
+.reviews{
+    height: 800px;
+    background-color: #da7d00;
+}
+.review-box{
+    display: flex;
+    justify-content: center;
+}

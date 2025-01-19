@@ -1,0 +1,46 @@
+
+.review{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    border: solid 5px #380300;
+    width: 70%;
+    padding: 20px 15px;
+}
+.review > img{
+    height: 160px;
+    margin-right: 30px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.right > h2{
+    font-family: 'Etna', sans-serif;
+    font-size: 3rem;
+    color: #380300;
+
+}
+.right > h3{
+    font-family: 'Etna', sans-serif;
+    font-size: 1.8rem;
+    padding: 4px 0px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+    color: #c90000;
+}
+.right > p{
+    all: unset;
+    font-family: 'Gill', sans-serif;
+    color: #380300;
+    font-weight: 600;
+    text-align: right;
+    margin: 14px;
+    width: 90%;
+    align-self: flex-end;
+    font-size: 15pt;
+}
+.right > img{
+    height: 40px;
+    align-self: flex-end;
+}

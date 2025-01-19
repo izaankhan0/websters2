@@ -6,7 +6,7 @@ import Clients from "./components/clients"
 // import About from "./components/about"
 import Forms from "./components/forms"
 import Process from "./components/process"
-// import Reviews from "./components/reviews"
+import Reviews from "./components/reviews"
 // import Contact from "./components/contact"
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
   <Clients />
   <Forms />
   <Process />
+  <Reviews />
 
 </div>
   
