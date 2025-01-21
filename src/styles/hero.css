@@ -242,6 +242,6 @@ nav > ul > a > img{
 @media (max-width: 500px){
 
     .main > a > button{
-        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
 }
