@@ -62,7 +62,7 @@ function nav(){
                 <a href="#why"><img src={navIcon2} alt="" /></a>
                 <a href="#clients"><img src={navIcon3} alt="" /></a>
                 <a href="#reviews"><img src={navIcon4} alt="" /></a>
-                <a href=""><img src={navIcon5} alt="" /></a>
+                <a href="#contacts"><img src={navIcon5} alt="" /></a>
             </ul>
         </nav>
 
@@ -76,7 +76,7 @@ function nav(){
                 <a href="#why" style={{transform: `translateY(${a2}px)`}}><img src={navIcon2} alt="" /></a>
                 <a href="#clients" style={{transform: `translateY(${a3}px)`}}><img src={navIcon3} alt="" /></a>
                 <a href="#reviews" style={{transform: `translateY(${a4}px)`}}><img src={navIcon4} alt="" /></a>
-                <a href="" style={{transform: `translateY(${a5}px)`}}><img src={navIcon5} alt="" /></a>
+                <a href="#contacts" style={{transform: `translateY(${a5}px)`}}><img src={navIcon5} alt="" /></a>
             </ul>
         </div>
     </div>

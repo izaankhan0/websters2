@@ -1,17 +1,24 @@
 .contacts{
     min-height: 620px;
     background-color: #380300;
-
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50px;
 }
 .top > h1{
     color:#da7d00 ;
     padding-top: 50px;
+    z-index: 99;
+    position: relative;
 }
 .top > p{
     color:#da7d00 ;
     font-weight: 200;
     font-size: 20pt;
     margin: 20px 0px;
+    z-index: 99;
+    position: relative;
+    padding: 0px 20px;
 }
 .bottom{
     display: flex;
@@ -21,6 +28,8 @@
 .contact-u > a > img{
     width: 160px;
     transition: 200ms ease;
+    z-index: 99;
+    position: relative;
 }
 .contact-u > a > img:hover{
     transform: scale(1.1);
@@ -37,4 +46,21 @@
 }
 .contact-u > .contact-top > h2{
     font-size: 34pt;
+    z-index: 99;
+    position: relative;
+}
+
+@media (max-width:900px) {
+    .contact-u > .contact-top > h2{
+        font-size: 28pt;
+    }
+}
+@media (max-width:800px) {
+    .bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-u{
+        margin: 60px 0px;
+    }
 }

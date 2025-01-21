@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import Contact from "./contact"
 import '../styles/contacts.css'
+import Scroll from "../../public/assets/media/bg-scroll.png"
+
 
 function contacts(){
     return <div className="contacts" id="contacts">
-        
+        <img src={Scroll} className="absolute abs-1" alt="" />
+            <img src={Scroll} className="absolute abs-2" alt="" />
+            
                 <div className="top">
                     <h1>We'd Love to Answer Questions</h1>
                     <p>Whether it's about prices, or our quality of work; Feel free to ask anything!</p>
