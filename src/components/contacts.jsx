@@ -16,7 +16,7 @@ function contacts(){
                     <p>Whether it's about prices, or our quality of work; Feel free to ask anything!</p>
                 </div>
                 <div className="bottom">
-                    <Contact img = {Email} h2 ="Email" h3= "sitewebsters@gmail.com" a="" />
+                    <Contact img = {Email} h2 ="Email" h3= "sitewebsters@gmail.com" a="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkkNHQBgdRNZdnvBPhFBFzDsKPhfdzXpqwZsQPfJPcmgTKpnzXxLhVlNXGTHkSgLPzBPld" />
 
                     <div className="contact contact-u">
                         <a href="https://izaankhan0.github.io/portfolio"><img src="../../assets/media/hat-bright.png" alt="" /></a>
@@ -27,7 +27,7 @@ function contacts(){
                         <a href="https://izaankhan0.github.io/portfolio"><h3>My Website</h3></a>
                     </div>
 
-                    <Contact img ={Instagram} h2 ="Instagram" h3= "@website.site" a="" />
+                    <Contact img ={Instagram} h2 ="Instagram" h3= "@website.site" a="https://www.instagram.com/websters.site" />
                 </div>
     </div>
 }
