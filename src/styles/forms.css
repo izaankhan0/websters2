@@ -119,3 +119,29 @@
         padding-top: 0px;
     }
 }
+@media (max-width:650px){
+  .forms > h1{
+    font-size: 40pt !important;
+  }
+}
+@media (max-width:500px){
+  .form-box{
+    width: 160px;
+    height: 240px;
+  }
+}
+@media (max-width:400px){
+  .form-box{
+    width: 120px;
+    height: 200px;
+  }
+  .form-box > img{
+    height: 70px;
+  }
+  .form-box > p{
+    font-size: 18pt;
+  }
+  .forms > h1{
+
+  }
+}
