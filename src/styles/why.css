@@ -175,10 +175,10 @@ p{
     opacity: 0.2;
 }
 .abs-12{
-    animation: scrollImages 20s linear infinite;
+    animation: scrollImages 50s linear infinite;
 }
 .abs-22{
-    animation: scrollImages2 20s linear infinite;
+    animation: scrollImages2 50s linear infinite;
 }
 .absolute3{
     height: 93%;
@@ -188,10 +188,10 @@ p{
     opacity: 0.2;
 }
 .abs-32{
-    animation: scrollImages 20s linear infinite;
+    animation: scrollImages 50s linear infinite;
 }
 .abs-42{
-    animation: scrollImages2 20s linear infinite;
+    animation: scrollImages2 50s linear infinite;
 }
 .slide>img{
     z-index: 20;

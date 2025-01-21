@@ -56,11 +56,11 @@ nav > ul > a > img{
     opacity: 0.1;
 }
 .abs-1{
-    animation: scrollImages 20s linear infinite;
+    animation: scrollImages 50s linear infinite;
     /* visibility: hidden; */
 }
 .abs-2{
-    animation: scrollImages2 20s linear infinite;
+    animation: scrollImages2 50s linear infinite;
     /* visibility: hidden; */
 }
 

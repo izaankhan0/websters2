@@ -47,18 +47,18 @@
   }
   
   .abs-7 {
-    animation: scrollImages 20s linear infinite;
+    animation: scrollImages 50s linear infinite;
   }
   
   .abs-8 {
-    animation: scrollImages2 20s linear infinite;
+    animation: scrollImages2 50s linear infinite;
   }
   .abs-9 {
-    animation: scrollImages 20s linear infinite;
+    animation: scrollImages 50s linear infinite;
   }
   
   .abs-10 {
-    animation: scrollImages2 20s linear infinite;
+    animation: scrollImages2 50s linear infinite;
   }
   
   @keyframes scrollImages {

@@ -95,11 +95,11 @@
 }
 
 .abs-5 {
-  animation: scrollImages 20s linear infinite;
+  animation: scrollImages 50s linear infinite;
 }
 
 .abs-6 {
-  animation: scrollImages2 20s linear infinite;
+  animation: scrollImages2 50s linear infinite;
 }
 
 @keyframes scrollImages {

@@ -79,10 +79,10 @@
     opacity: 0.1;
 }
 .process > .abs-12{
-    animation: scrollImages 21.5s linear infinite;
+    animation: scrollImages 51.5s linear infinite;
 }
 .process > .abs-22{
-    animation: scrollImages2 21.5s linear infinite;
+    animation: scrollImages2 51.5s linear infinite;
 }
 .process > .absolute3{
     height: 70% !important;
@@ -93,8 +93,8 @@
     opacity: 0.1;
 }
 .process > .abs-32{
-    animation: scrollImages 21.5s linear infinite;
+    animation: scrollImages 51.5s linear infinite;
 }
 .process > .abs-42{
-    animation: scrollImages2 21.5s linear infinite;
+    animation: scrollImages2 51.5s linear infinite;
 }
