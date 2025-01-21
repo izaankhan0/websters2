@@ -22,7 +22,7 @@
         margin-left: 0px !important;
     }
 }
-@media (max-width:1250px) {
+@media (max-width:1350px) {
 
     .reviews > img{
         display: none;
@@ -41,7 +41,7 @@
     height: 85% !important;
     position: absolute;
     left: 0px;
-    top: 700px;
+    top: 530px;
     opacity: 0.15;
     z-index: 10 !important;
   }
