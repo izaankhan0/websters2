@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Contact from "./contact"
 import '../styles/contacts.css'
 import Scroll from "../../public/assets/media/bg-scroll.png"
+import Instagram from "../../public/assets/media/18.png"
+import Email from "../../public/assets/media/17.png"
 
 
 function contacts(){
@@ -14,7 +16,7 @@ function contacts(){
                     <p>Whether it's about prices, or our quality of work; Feel free to ask anything!</p>
                 </div>
                 <div className="bottom">
-                    <Contact img ="../../assets/media/17.png" h2 ="Email" h3= "websters.site@gmail.com" a="" />
+                    <Contact img = {Email} h2 ="Email" h3= "websters.site@gmail.com" a="" />
 
                     <div className="contact contact-u">
                         <a href="https://izaankhan0.github.io/portfolio"><img src="../../assets/media/hat-bright.png" alt="" /></a>
@@ -25,7 +27,7 @@ function contacts(){
                         <a href="https://izaankhan0.github.io/portfolio"><h3>My Website</h3></a>
                     </div>
 
-                    <Contact img ="../../assets/media/18.png" h2 ="Instagram" h3= "@website.site" a="" />
+                    <Contact img ={Instagram} h2 ="Instagram" h3= "@website.site" a="" />
                 </div>
     </div>
 }
