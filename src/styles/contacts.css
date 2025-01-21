@@ -1,0 +1,40 @@
+.contacts{
+    min-height: 620px;
+    background-color: #380300;
+
+}
+.top > h1{
+    color:#da7d00 ;
+    padding-top: 50px;
+}
+.top > p{
+    color:#da7d00 ;
+    font-weight: 200;
+    font-size: 20pt;
+    margin: 20px 0px;
+}
+.bottom{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.contact-u > a > img{
+    width: 160px;
+    transition: 200ms ease;
+}
+.contact-u > a > img:hover{
+    transform: scale(1.1);
+}
+.contact-u{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-u > .contact-top > .vertical-line{
+    margin-left: 0px;
+    margin-right: 14px;
+    height: 50px;
+}
+.contact-u > .contact-top > h2{
+    font-size: 34pt;
+}

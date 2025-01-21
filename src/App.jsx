@@ -7,7 +7,7 @@ import Clients from "./components/clients"
 import Forms from "./components/forms"
 import Process from "./components/process"
 import Reviews from "./components/reviews"
-// import Contact from "./components/contact"
+import Contact from "./components/contacts"
 
 function App() {
   return <div className="container">
@@ -19,6 +19,7 @@ function App() {
   <Forms />
   <Process />
   <Reviews />
+  <Contact />
 
 </div>
   

@@ -1,0 +1,53 @@
+.contact-top > a > img{
+    width: 60px;
+    transition: 200ms ease;
+
+}
+.contact-top > a > img:hover{
+    transform: scale(1.1);
+}
+.contact-top > .vertical-line{
+    width: 7px;
+    height: 60px;
+    background-color: #da7d00;
+    margin: 0px 20px;
+}
+.contact-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+.contact{
+    width: 300px;
+}
+.contact-top > h2{
+    color: #da7d00;
+    font-family: 'Etna', sans-serif;
+    font-size: 30pt;
+    font-weight: 900 !important;
+    margin-bottom: 13px;
+    text-decoration: none !important;
+    list-style: none;
+
+}
+.contact> a > h3{
+    color: #da7d00;
+    font-family: 'Gill', sans-serif;
+    margin-top: 4px;
+    margin-left: 12px;
+    font-size: 18pt;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: none !important;
+    list-style: none;
+    transition: 200ms ease;
+}
+.contact> a > h3:hover{
+    transform: scale(1.1);
+    font-weight: 700;
+    color: #ff9100;
+}
+.contact> a {
+    text-decoration: none !important;
+}

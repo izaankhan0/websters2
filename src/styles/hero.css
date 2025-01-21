@@ -223,13 +223,16 @@ nav > ul > a > img{
     .logo{
         width: 325px;
     }
-    h1{
+    .main > h1{
         margin-left: 10px !important;
-        font-size: 24px !important;
+        font-size: 24pt !important;
     }
     .main > button{
         padding: 10px 15px 16px 19px;
         font-size: 16pt;
         margin-top: 50px;
+    }
+    .main > a > button{
+        font-size: 18pt !important;
     }
 }
