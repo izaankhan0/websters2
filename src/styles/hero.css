@@ -236,3 +236,12 @@ nav > ul > a > img{
         font-size: 18pt !important;
     }
 }
+
+
+
+@media (max-width: 500px){
+
+    .main > a > button{
+        margin-bottom: 0px;
+    }
+}

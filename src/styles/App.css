@@ -9,5 +9,4 @@ img {
     user-drag: none;
     -webkit-user-drag: none; /* For Safari */
     pointer-events: auto; /* Ensure other interactions still work */
-  }
-  
+ }

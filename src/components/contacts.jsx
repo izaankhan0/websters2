@@ -16,7 +16,7 @@ function contacts(){
                     <p>Whether it's about prices, or our quality of work; Feel free to ask anything!</p>
                 </div>
                 <div className="bottom">
-                    <Contact img = {Email} h2 ="Email" h3= "websters.site@gmail.com" a="" />
+                    <Contact img = {Email} h2 ="Email" h3= "sitewebsters@gmail.com" a="" />
 
                     <div className="contact contact-u">
                         <a href="https://izaankhan0.github.io/portfolio"><img src="../../assets/media/hat-bright.png" alt="" /></a>
