@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import '../styles/portfolio.css';
 import '../styles/fonts.css';
-import Scroll from "../../public/assets/media/bg-scroll.png"
+import FormsPage from '../components/forms-page';
+
 
 function portfolio(){
     return <div className="portfolio">
-        portfolio
+        <FormsPage name="Portfolio" usd="$55" pkr="PKR 15,000" />
     </div>
 }
 

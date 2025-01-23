@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import '../styles/brand.css';
 import '../styles/fonts.css';
-import Scroll from "../../public/assets/media/bg-scroll.png"
+import FormsPage from '../components/forms-page';
+
 
 function brand(){
     return <div className="brand">
-        brand
+        <FormsPage name="Brand" usd="$70" pkr="PKR 20,000" />
     </div>
 }
 
