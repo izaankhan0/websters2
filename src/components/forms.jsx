@@ -6,15 +6,27 @@ import Portfolio from "../../public/assets/media/portfolio.png";
 import Company from "../../public/assets/media/company.png";
 import Blog from "../../public/assets/media/blog.png";
 import Scroll from "../../public/assets/media/bg-scroll-black.png";
-
+import { Link } from "react-router-dom";
 
 function Forms() {
+
+  
+
   const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  // Define the links for each form box
+  const links = [
+    "/startup", // Link for Startup Website
+    "/personal", // Link for Personal Website
+    "/portfolio", // Link for Portfolio Website
+    "/brand",   // Link for Company/Brand Website
+    "/blog"       // Link for Blog Website
+  ];
 
   return (
     <div className="forms" id="forms">
-        <img src={Scroll} className="absolute abs-7" alt="" />
-        <img src={Scroll} className="absolute abs-8" alt="" />
+      <img src={Scroll} className="absolute abs-7" alt="" />
+      <img src={Scroll} className="absolute abs-8" alt="" />
               
       <h1>Choose the Website you want!</h1>
       <div className="form">
@@ -24,7 +36,7 @@ function Forms() {
           { src: Company, label: "Company/ Brand Website" },
           { src: Blog, label: "Blog Website" }]
           .map((item, index) => (
-            <a href="" key={index}>
+            <Link to={links[index]} key={index}>
               <div
                 className={`form-box ${
                   hoveredIndex !== null && hoveredIndex !== index ? "blur" : ""
@@ -35,7 +47,7 @@ function Forms() {
                 <img src={item.src} alt="" />
                 <p>{item.label}</p>
               </div>
-            </a>
+            </Link>
           ))}
       </div>
     </div>
