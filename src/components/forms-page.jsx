@@ -2,20 +2,23 @@ import React, { useState } from 'react';
 import '../styles/forms-page.css';
 import '../styles/fonts.css';
 import Scroll from "../../public/assets/media/bg-scroll.png"
+import Fiverr from "../../public/assets/media/fiverr-compar.png"
+import { Link } from "react-router-dom";
+
 
 function formsPage(props){
     return <div className="forms-page">
-        <a href=""><button>Back</button></a>
+        <Link to="/"><button>&#8678; Back</button></Link>
         <div className="page">
             <h1>{props.name} Website</h1>
             <div className="down">
                 <div className="down-left">
                     <h2>Minimum Fee of Fiverr:</h2>
-                    <img src="" alt="" />
+                    <img src={Fiverr} alt="" />
                     <p>For ONLY Website Development</p>
                 </div>
                 <div className="down-right">
-                    <h3>What we Offer:</h3>
+                    <h2>What we Offer:</h2>
 
                     <div className="price-card">
                         <h4>Websters</h4>

@@ -1,0 +1,231 @@
+.forms-page{
+    background-color: #da7d00;
+    min-height: 780px;
+}
+.forms-page > a > button{
+    position: absolute;
+    height: 54px;
+    width: 190px;
+    background-color: #ffa52c;
+    color: #380300;
+    border: solid 5px #380300;
+    border-radius: 50px;
+    font-size: 20pt;
+    font-weight: 700;
+    font-family: "League Spartan", serif;
+    padding-top: 3px;
+    padding-right: 16px;
+    top: 16px;
+    left: 10px;
+    cursor: pointer;
+    transition: 100ms ease;
+}
+.forms-page > a > button:hover{
+    background-color: #380300;
+    color: #ffa52c;
+    /* border: solid 5px #ffa52c; */
+}
+.page > h1{
+    font-size: 60pt;
+    font-family: 'Etna', sans-serif;
+    color: #380300;
+    text-align: center;
+    padding-top: 17px;
+
+}
+.down{
+    display: flex;
+
+}
+.down-left{
+    width: 50%;
+}
+.down-right{
+    width: 50%;
+}
+.down > div > h2{
+    font-size: 32pt;
+    font-weight: 700;
+    font-family: "League Spartan", serif;
+    color: #380300;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 14px;
+}
+.down-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.down-left > img{
+    width: 360px;
+}
+.down-left > p{
+    width: 300px;
+    font-family: "League Spartan", serif;
+    font-size: 24pt;
+    position: relative;
+    bottom: 70px;
+    font-weight: 700;
+    right: 36px;
+}
+
+
+
+
+
+.down-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price-card{
+    border: solid 8px #000000;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #380300;
+    border-radius: 10px;
+    padding: 10px 0px;
+
+
+}
+h4{
+    text-align: center;
+    font-family: 'Etna', sans-serif;
+    color: #da7d00;
+    font-size: 40pt;
+}
+h5{
+    text-align: center;
+    font-family: 'Etna', sans-serif;
+    color: #da7d00;
+    font-size: 30pt;
+    margin: 7px 0px;
+}
+.horizontal-line{
+    width: 90%;
+    height: 5px;
+    background-color: #da7d00;
+    margin: 15px auto;
+}
+
+.prices{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.prices > p{
+    all: unset;
+    color: #ffa52c;
+    font-size: 26pt;
+    font-family: "League Spartan", serif;
+    font-weight: 700;
+}
+.price-card > ul{
+    margin: 16px 0px;
+    margin-left: 50px;
+}
+.price-card > ul > li{
+    font-size: 20pt;
+    color: #ffa52c;
+    font-family: 'Gill', sans-serif;
+    font-weight: 100;
+    margin: 6px 0px;
+}
+
+h6{
+    font-family: "League Spartan", serif;
+    font-size: 24pt;
+    font-weight: 700;
+    color: #380300;
+    text-align: center;
+    width: 60%;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width:1050px) {
+    .price-card{
+        width: 350px;
+    }
+    .forms-page > a > button{
+        position: static;
+        margin: 20px 0px 0px 0px;
+    }
+    .forms-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:875px) {
+    .down > div > h2{
+        font-size: 26pt;
+    }
+    h6{
+        width: 97%;
+    }
+}
+
+@media (max-width:750px) {
+    .down{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .down > div{
+        width: 100% !important;
+
+    }
+    .down > div > h2{
+        font-size: 30pt;
+        width: 100%;
+    }
+    .page{
+        padding-bottom: 26px;
+    }
+}
+@media (max-width:700px) {
+    .page > h1{
+        font-size: 40pt !important;
+        margin: 0px !important;
+    }
+}
+@media (max-width:650px) {
+    .page > h1{
+        font-size: 40pt !important;
+        margin: 0px !important;
+    }
+}
+@media (max-width:400px) {
+    .price-card{
+        width: 290px;
+    }
+    .price-card > h4{
+        font-size: 36pt;
+    }
+    .price-card > h5{
+        font-size: 26pt;
+    }
+    .prices > p{
+        font-size: 22pt;
+    }
+    .price-card > ul > li{
+        font-size: 16pt;
+    }
+    .price-card > ul{
+        margin-left: 30px;
+    }
+    .down > div{
+        width: 100% !important;
+    }
+    .down-left > img{
+        width: 300px;
+    }
+    .down-left > p{
+        font-size: 20pt;
+    }
+}
