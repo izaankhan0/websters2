@@ -1,0 +1,18 @@
+.google-form{
+    background-color: #da7d00;
+display: flex;
+justify-content: center;
+}
+.google-form > iframe{
+    height: 1800px;
+}
+@media (max-width:650px) {
+    .google-form > iframe{
+        height: 2000px !important;
+    }
+}
+@media (max-width:400px) {
+    .google-form > iframe{
+        height: 2200px !important;
+    }
+}
