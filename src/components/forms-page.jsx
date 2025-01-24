@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../styles/forms-page.css';
 import '../styles/fonts.css';
 import Scroll from "../../public/assets/media/bg-scroll.png"
+import VS from "../../public/assets/media/vs.png"
 import Fiverr from "../../public/assets/media/fiverr-compar.png"
 import { Link } from "react-router-dom";
 
@@ -17,6 +18,7 @@ function formsPage(props){
                     <img src={Fiverr} alt="" />
                     <p>For ONLY Website Development</p>
                 </div>
+                <img src={VS} alt="" className='vs' />
                 <div className="down-right">
                     <h2>What we Offer:</h2>
 

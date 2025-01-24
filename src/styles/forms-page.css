@@ -35,13 +35,15 @@
 }
 .down{
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 }
 .down-left{
-    width: 50%;
+    width: 45%;
 }
 .down-right{
-    width: 50%;
+    width: 45%;
+    align-self: flex-start;
 }
 .down > div > h2{
     font-size: 32pt;
@@ -159,6 +161,11 @@ h6{
         flex-direction: column;
         align-items: center;
     }
+    .vs{
+        position: relative;
+        right: 0px !important;
+        bottom: 80px;
+    }
 }
 
 @media (max-width:875px) {
@@ -186,6 +193,12 @@ h6{
     }
     .page{
         padding-bottom: 26px;
+    }
+    .vs{
+        position: relative;
+        right: 0px !important;
+        bottom: 0px !important;
+        margin-bottom: 50px;
     }
 }
 @media (max-width:700px) {
@@ -227,5 +240,19 @@ h6{
     }
     .down-left > p{
         font-size: 20pt;
+    }
+}
+
+
+.vs{
+    height: 140px;
+    position: relative;
+    right: 14px;
+    bottom: 80px;
+}
+
+@media (max-width:1390px) {
+    .vs{
+        right: 30px;
     }
 }
