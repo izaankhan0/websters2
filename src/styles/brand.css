@@ -5,8 +5,6 @@ justify-content: center;
 }
 .google-form > iframe{
     height: 2000px;
-    z-index: 80;
-
 }
 @media (max-width:650px) {
     .google-form > iframe{
@@ -17,35 +15,4 @@ justify-content: center;
     .google-form > iframe{
         height: 2400px !important;
     }
-}
-
-
-.brand > .absolute{
-    height: 150%;
-    position: absolute;
-    left: 0px;
-    top: -220px;
-    opacity: 0.25;
-}
-.brand > .absolute-2{
-    height: 150%;
-    position: absolute;
-    left: 0px;
-    top: 90vh;
-    opacity: 0.25;
-}
-.brand > .absolute-3{
-    height: 150%;
-    position: absolute;
-    left: 0px;
-    top: 207vh;
-    opacity: 0.25;
-}
-.abs-1{
-    animation: scrollImages 50s linear infinite;
-    /* visibility: hidden; */
-}
-.abs-2{
-    animation: scrollImages2 50s linear infinite;
-    /* visibility: hidden; */
 }
