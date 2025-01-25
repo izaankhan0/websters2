@@ -12,7 +12,7 @@ function hero(){
     <Nav />
     <div className="main">
         <img src= {Logo} className="logo" alt="" />
-        <h1>Building your Digital Presence</h1>
+        <h1>We build Modern Websites!</h1>
         <a href="#forms"><button>Get your Website Now</button></a>
     </div>
 </div>
