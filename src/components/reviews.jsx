@@ -6,10 +6,10 @@ import Scroll from "../../public/assets/media/bg-scroll-black.png";
 
 function reviews(){
     return <div className="reviews" id="reviews">
-        <img src={Scroll} className="absolute abs-7" alt="" />
-        <img src={Scroll} className="absolute abs-8" alt="" />
-        <img src={Scroll} className="absolute2 abs-9" alt="" />
-        <img src={Scroll} className="absolute2 abs-10" alt="" />
+        <img src={Scroll} className="absolute abs-7" alt="bg image scroller" />
+        <img src={Scroll} className="absolute abs-8" alt="bg image scroller" />
+        <img src={Scroll} className="absolute2 abs-9" alt="bg image scroller" />
+        <img src={Scroll} className="absolute2 abs-10" alt="bg image scroller" />
                  
         <h1>Testimonials</h1>
         <div className="review-box">  

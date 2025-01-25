@@ -25,8 +25,8 @@ function Forms() {
 
   return (
     <div className="forms" id="forms">
-      <img src={Scroll} className="absolute abs-7" alt="" />
-      <img src={Scroll} className="absolute abs-8" alt="" />
+      <img src={Scroll} className="absolute abs-7" alt="bg image scroller" />
+      <img src={Scroll} className="absolute abs-8" alt="bg image scroller" />
               
       <h1>Choose the Website you want!</h1>
       <div className="form">
@@ -44,7 +44,7 @@ function Forms() {
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
               >
-                <img src={item.src} alt="" />
+                <img src={item.src} alt="forms logo" />
                 <p>{item.label}</p>
               </div>
             </Link>

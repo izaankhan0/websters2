@@ -15,10 +15,10 @@ function formsPage(props){
             <div className="down">
                 <div className="down-left">
                     <h2>Minimum Fee of Fiverr:</h2>
-                    <img src={Fiverr} alt="" />
+                    <img src={Fiverr} alt="fiverr card" />
                     <p>For ONLY Website Development</p>
                 </div>
-                <img src={VS} alt="" className='vs' />
+                <img src={VS} alt="vs image" className='vs' />
                 <div className="down-right">
                     <h2>What we Offer:</h2>
 

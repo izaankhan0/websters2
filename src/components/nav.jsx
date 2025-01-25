@@ -56,27 +56,27 @@ function nav(){
 
     return <div className="wrapper">
         <nav>
-            <img src={hatDark} className="w-20" alt="" />
+            <img src={hatDark} className="w-20" alt="burger hat image" />
             <ul>
-                <a href="#hero"><img src={navIcon1} alt="" /></a>
-                <a href="#why"><img src={navIcon2} alt="" /></a>
-                <a href="#clients"><img src={navIcon3} alt="" /></a>
-                <a href="#reviews"><img src={navIcon4} alt="" /></a>
-                <a href="#contacts"><img src={navIcon5} alt="" /></a>
+                <a href="#hero"><img src={navIcon1} alt="home logo" /></a>
+                <a href="#why"><img src={navIcon2} alt="why about icon" /></a>
+                <a href="#clients"><img src={navIcon3} alt="clients icon" /></a>
+                <a href="#reviews"><img src={navIcon4} alt="reviews icon" /></a>
+                <a href="#contacts"><img src={navIcon5} alt="contact icon" /></a>
             </ul>
         </nav>
 
         <div style={{transform: `rotate(${rotator}deg)`}} onClick={burger} className="burger">
-            <img src={hatDark} className="w-20" alt="" />
+            <img src={hatDark} className="w-20" alt="burger hat icon" />
         </div>
 
         <div className="van">
             <ul>
-                <a href="#hero" style={{transform: `translateY(${a1}px)`}}><img src={navIcon1} alt="" /></a>
-                <a href="#why" style={{transform: `translateY(${a2}px)`}}><img src={navIcon2} alt="" /></a>
-                <a href="#clients" style={{transform: `translateY(${a3}px)`}}><img src={navIcon3} alt="" /></a>
-                <a href="#reviews" style={{transform: `translateY(${a4}px)`}}><img src={navIcon4} alt="" /></a>
-                <a href="#contacts" style={{transform: `translateY(${a5}px)`}}><img src={navIcon5} alt="" /></a>
+                <a href="#hero" style={{transform: `translateY(${a1}px)`}}><img src={navIcon1} alt="home logo" /></a>
+                <a href="#why" style={{transform: `translateY(${a2}px)`}}><img src={navIcon2} alt="why about icon" /></a>
+                <a href="#clients" style={{transform: `translateY(${a3}px)`}}><img src={navIcon3} alt="clients icon" /></a>
+                <a href="#reviews" style={{transform: `translateY(${a4}px)`}}><img src={navIcon4} alt="reviews icon" /></a>
+                <a href="#contacts" style={{transform: `translateY(${a5}px)`}}><img src={navIcon5} alt="contact icon" /></a>
             </ul>
         </div>
     </div>

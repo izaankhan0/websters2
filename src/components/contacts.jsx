@@ -8,8 +8,8 @@ import Email from "../../public/assets/media/17.png"
 
 function contacts(){
     return <div className="contacts" id="contacts">
-        <img src={Scroll} className="absolute abs-1" alt="" />
-            <img src={Scroll} className="absolute abs-2" alt="" />
+        <img src={Scroll} className="absolute abs-1" alt="bg scroller image" />
+            <img src={Scroll} className="absolute abs-2" alt="bg scroller image" />
             
                 <div className="top">
                     <h1>We'd Love to Answer Questions</h1>
@@ -19,7 +19,7 @@ function contacts(){
                     <Contact img = {Email} h2 ="Email" h3= "sitewebsters@gmail.com" a="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkkNHQBgdRNZdnvBPhFBFzDsKPhfdzXpqwZsQPfJPcmgTKpnzXxLhVlNXGTHkSgLPzBPld" />
 
                     <div className="contact contact-u">
-                        <a href="https://izaankhan0.github.io/portfolio"><img src="../../assets/media/hat-bright.png" alt="" /></a>
+                        <a href="https://izaankhan0.github.io/portfolio"><img src="../../assets/media/hat-bright.png" alt="grad cap image" /></a>
                         <div className="contact-top">
                             <div className="vertical-line"></div>
                             <h2>Founder's Website</h2>

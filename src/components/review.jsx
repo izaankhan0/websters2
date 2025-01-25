@@ -6,12 +6,12 @@ import Stars from "../../public/assets/media/stars.png"
 
 function review(props){
     return <div className="review" id="review">
-        <img src={Quote} alt="" />
+        <img src={Quote} alt="quote image" />
         <div className="right">
             <h2>{props.name}</h2>
             <h3>{props.position}</h3>
             <p>{props.text}</p>
-            <img src={Stars} alt="" />
+            <img src={Stars} alt="stars icon" />
         </div>
     </div>
 }

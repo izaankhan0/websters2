@@ -4,7 +4,7 @@ import '../styles/contact.css'
 function contact(props){
     return <div className="contact">
                 <div className="contact-top">
-                    <a href={props.a}><img src={props.img} alt="" /></a>
+                    <a href={props.a}><img src={props.img} alt="contact image" /></a>
                     <div className="vertical-line"></div>
                     <h2>{props.h2}</h2>
                 </div>
